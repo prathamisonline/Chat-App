@@ -1,0 +1,49 @@
+.LoginHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  border-bottom: 1px solid #BFDCE5;
+  padding: 0px 24px 0px 16px;
+  gap: 56px;
+  color: white;
+  &_logo {
+    color:white;
+  }
+
+  &_btnContainer{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &_btn{
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: var(--color-black);
+      height: 100%;
+      gap:10px
+
+    }
+  }
+  &_btn-active{
+    color: #FF2E63 !important;
+  }
+}
+
+
+.AuthFooter{
+  // width: 100%;
+  padding: 24px;
+  
+  &_text {
+    font-weight: 500;
+    font-size: 16px;
+    color:gray;
+  }
+}
+
